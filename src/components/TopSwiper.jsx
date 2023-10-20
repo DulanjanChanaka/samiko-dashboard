@@ -1,7 +1,4 @@
-import React, { useState } from 'react';
-import { db, storage } from '../firebase/firebase'
-import { ref,  getDownloadURL, uploadBytesResumable } from 'firebase/storage';
-import { addDoc, collection } from 'firebase/firestore';
+
 
 function TopSwiper() {
     
