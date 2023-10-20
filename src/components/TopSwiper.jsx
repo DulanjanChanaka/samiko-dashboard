@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { db, storage } from '../firebase/firebase'
-import { ref, uploadBytes, getDownloadURL, uploadBytesResumable } from 'firebase/storage';
+import { ref,  getDownloadURL, uploadBytesResumable } from 'firebase/storage';
 import { addDoc, collection } from 'firebase/firestore';
 
 function TopSwiper() {
@@ -83,7 +83,7 @@ function TopSwiper() {
 
     return (
         <div className='p-3 overflow-hidden flex flex-col justify-center align-middle'>
-        <div className='bg-white shadow-lg rounded-lg p-6 '>
+        {/* <div className='bg-white shadow-lg rounded-lg p-6 '>
             <h3 className='text-2xl font-medium mb-3'>Add Your Top Swiper</h3>
 
             <div className='mb-3'>
@@ -118,7 +118,8 @@ function TopSwiper() {
                 <button className='p-2 bg-cyan-400 rounded-xl text-white mr-2' onClick={uploadImage}>Upload Image</button>
                 <button className='p-2 bg-cyan-500 rounded-xl text-white' onClick={handleFormSubmit}>Submit</button>
             </div>
-        </div>
+        </div> */}
+        <h2>Top Swiper</h2>
     </div>
     );
 }

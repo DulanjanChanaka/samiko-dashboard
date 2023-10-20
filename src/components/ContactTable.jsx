@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { getFirestore, deleteDoc, collection, onSnapshot, doc } from 'firebase/firestore';
+import {  deleteDoc, collection, onSnapshot, doc } from 'firebase/firestore';
 import { db } from '../firebase/firebase';
 
 const ContactTable = () => {

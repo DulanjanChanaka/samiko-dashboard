@@ -179,7 +179,7 @@ function CategoryItem() {
                     </div>
                  
                     <div>
-                        {image && <img src={image} style={{ width: 200, height: 200 }} />}
+                        {image && <img src={image} alt='category' style={{ width: 200, height: 200 }} />}
                     </div>
                     {formError && <p >{formError}</p>}
                     {uploading && <div className="loader"></div>}

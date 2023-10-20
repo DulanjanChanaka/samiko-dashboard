@@ -154,7 +154,7 @@ function TopItemSwiper() {
                     </div>
 
                     <div>
-                        {image && <img src={image} style={{ width: 200, height: 200 }} />}
+                        {image && <img src={image}  alt='topitem'style={{ width: 200, height: 200 }} />}
                     </div>
                     {formError && <p >{formError}</p>}
                     {uploading && <div className="loader"></div>}

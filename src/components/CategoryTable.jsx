@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { getFirestore, deleteDoc, collection, onSnapshot, doc } from 'firebase/firestore';
+import {  deleteDoc, collection, onSnapshot, doc } from 'firebase/firestore';
 import { db } from '../firebase/firebase';
 
 const CategoryTable = () => {
@@ -40,7 +40,7 @@ const CategoryTable = () => {
       renderCell: (params) => (
         <img
           src={params.value}
-          alt="Image"
+          alt="category"
           width={50}
           height={50}
         />
