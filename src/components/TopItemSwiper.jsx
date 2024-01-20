@@ -21,6 +21,7 @@ function TopItemSwiper() {
         if (selectedFile) {
             const imageUrl = URL.createObjectURL(selectedFile);
             setImage(imageUrl);
+
         }
     };
 
@@ -31,6 +32,7 @@ function TopItemSwiper() {
         }
 
         setUploading(true);
+        alert("Image Upload Successful!")
 
         // Use a reference to Firebase Storage
         const storageRef = ref(storage, '' + Date.now()); // You can adjust the path as needed
