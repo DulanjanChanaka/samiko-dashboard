@@ -151,7 +151,7 @@ function CategoryItem() {
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                     className='border-b border-solid'
-                >
+                > <option >---Select Category---</option>
                     <option value="bathroomfaucets">Bathroom Faucets</option>
                     <option value="mirrors">Bathroom Mirrors</option>
                     <option value="cabinets">Bathroom Cabinets and Vanities</option>
