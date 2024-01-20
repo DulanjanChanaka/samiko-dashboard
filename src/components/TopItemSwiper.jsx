@@ -44,7 +44,7 @@ function TopItemSwiper() {
                 getDownloadURL(storageRef).then((downloadURL) => {
                     console.log('File available at', downloadURL);
                     setUploading(false);
-                    console.log('Photo uploaded!');
+                    
                     setImagelink(downloadURL);
                     console.log(downloadURL);
                     console.log(imagelink)// Move this line inside the .then() block
