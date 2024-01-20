@@ -45,6 +45,7 @@ function CategoryItem() {
                 getDownloadURL(storageRef).then((downloadURL) => {
                     console.log('File available at', downloadURL);
                     setUploading(false);
+                    alert("Photo uploaded!")
                     console.log('Photo uploaded!');
                     alert("Photo uploaded!")
                     setImagelink(downloadURL);
@@ -96,7 +97,7 @@ function CategoryItem() {
         <div className=' p-3 overflow-hidden px-5'>
             <div>
                 <div className='  text-center font-medium mb-3'>
-                <h3 >Add Your Top Swiper</h3>
+                <h3 >Add Your Category Item</h3>
 
                 </div>
                 
